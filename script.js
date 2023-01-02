@@ -68,13 +68,3 @@ form.addEventListener("submit", (e) => {
 })
 
 let archive = JSON.parse(localStorage.getItem("ArtList")) || [];
-
-// const sum = archive.reduce((total, item) => {
-//     return total + Number(item.price);
-// }, 0);
-
-// const tfoot  = document.querySelector(".foot-row");
-// const sumColumn = document.createElement("td");
-// tfoot.appendChild(sumColumn);
-
-// sumColumn.textContent = sum;
