@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Tracking</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Discos y Pelis</h1>
+    <table>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col style="border: 2px solid black;">  
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Director/Composer</th>
+                <th>Launch</th>
+                <th>Country</th>
+                <th>Evaluation</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <form action="" method="get">
+        <fieldset>
+            <div class="form-input">
+                <div class="form-row">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title">
+                </div>
+                <div class="form-row">
+                    <label for="genre">Genre</label>
+                    <input type="text" name="genre" id="genre">
+                </div>
+                <div class="form-row">
+                    <label for="director-composer">Director/Composer</label>
+                    <input type="text" name="director-composer" id="director-composer">
+                </div>
+                <div class="form-row">
+                    <label for="launch">Launch</label>
+                    <input type="number" name="launch" id="launch">
+                </div>
+                <div class="form-row">
+                    <label for="country">Country</label>
+                    <input type="text" name="number" id="country">
+                </div>
+                <div class="form-row">
+                    <label for="eval">Evaluation</label>
+                    <input type="number" id="eval" name="eval" min="0" max="10" step=".1">
+                </div>
+                <div class="form-row">
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date">
+                </div>
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>
